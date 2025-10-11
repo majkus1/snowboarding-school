@@ -1,0 +1,1086 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  position: relative;
+  top: -117px;
+}
+.home .image-container {
+  position: relative;
+  overflow: hidden;
+  top: 0;
+}
+.home .image-container .desktopheadimg {
+  display: none;
+  margin-top: -117px;
+}
+.home .image-container .mediumheadimg {
+  display: none;
+}
+.home .image-container .desktopheadimg {
+  padding-top: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home .image-container .mobileheadimg {
+  padding-top: 120px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background: transparent;
+}
+.home .image-container .centerhead {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  top: 265px;
+  z-index: 1;
+}
+.home .image-container .centerhead h1 {
+  font-size: 1px;
+  color: transparent;
+}
+.home .image-container .centerhead .new {
+  text-align: center;
+  font-family: "Kalnia", serif;
+  font-size: 47px;
+  color: #ffffff;
+  backdrop-filter: blur(0.5px);
+  -webkit-backdrop-filter: blur(0.5px);
+  border-radius: 15px;
+}
+.home .image-container .centerhead .btns {
+  display: flex;
+  flex-direction: column;
+}
+.home .image-container .centerhead .btns .btn-ones,
+.home .image-container .centerhead .btns .btn-twos,
+.home .image-container .centerhead .btns .btn-thre,
+.home .image-container .centerhead .btns .btn-four {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 15px;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.3s;
+  font-size: 19px;
+  height: 60px;
+  background-color: #cddfe9;
+  color: black;
+  border-top-left-radius: 15px;
+  font-family: "Wix Madefor Display", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+.home .image-container .centerhead .btns .btn-ones {
+  margin-top: 35px;
+}
+.home .image-container .centerhead .btns .btn-ones:hover {
+  background-color: white;
+  transform: scale(0.9);
+  box-shadow: 12px 12px 0px 1px #cddfe9;
+}
+.home .image-container .centerhead .btns .btn-twos:hover {
+  background-color: white;
+  transform: scale(0.9);
+  box-shadow: 12px 12px 0px 1px #cddfe9;
+}
+.home .image-container .centerhead .btns .btn-thre:hover {
+  background-color: white;
+  transform: scale(0.9);
+  box-shadow: 12px 12px 0px 1px #cddfe9;
+}
+.home .image-container .centerhead .btns .btn-four:hover {
+  background-color: white;
+  transform: scale(0.9);
+  box-shadow: 12px 12px 0px 1px #cddfe9;
+}
+.home .image-container .centerhead .btns .checks {
+  margin-right: 5px;
+}
+.home .image-container .head-social {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 189px;
+  right: 0;
+  z-index: 1999;
+}
+.home .image-container .head-social .tt-link {
+  background-color: rgb(0, 0, 0);
+  transition: all 0.2s;
+  padding: 2px;
+  border-top-left-radius: 10px;
+}
+.home .image-container .head-social .tt-link img {
+  display: flex;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+}
+.home .image-container .head-social .tt-link:hover {
+  background: rgb(105, 201, 208);
+  background: linear-gradient(90deg, rgb(105, 201, 208) 35%, rgb(0, 0, 0) 48%, rgb(238, 29, 82) 60%);
+  transform: scale(1.2);
+}
+.home .image-container .head-social .ig-link {
+  border-top-left-radius: 10px;
+  padding: 2px;
+  margin-top: 5px;
+  background-color: rgb(0, 0, 0);
+  transition: all 0.2s;
+}
+.home .image-container .head-social .ig-link img {
+  display: flex;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+}
+.home .image-container .head-social .ig-link:hover {
+  background: rgb(214, 41, 118);
+  background: linear-gradient(90deg, rgb(214, 41, 118) 35%, rgb(150, 47, 191) 60%);
+  transform: scale(1.2);
+}
+.home .image-container .head-social .lin-link {
+  border-top-left-radius: 10px;
+  padding: 2px;
+  margin-top: 5px;
+  background-color: rgb(0, 0, 0);
+  transition: all 0.2s;
+}
+.home .image-container .head-social .lin-link img {
+  display: flex;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+}
+.home .image-container .head-social .lin-link:hover {
+  background: blue;
+  transform: scale(1.2);
+}
+
+.ebook {
+  display: none;
+}
+
+.ebookmobile {
+  margin-top: -100px;
+}
+.ebookmobile .ebook-content-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ebookmobile .ebook-content-mobile .ebooktxtmmobile {
+  font-family: "Wix Madefor Display", sans-serif;
+}
+.ebookmobile .ebook-content-mobile .ebooktxtmmobile h2 {
+  padding-top: 50px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 22px;
+  text-align: center;
+  color: #0097d0;
+  margin-bottom: 15px;
+  font-family: "Kalnia", serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.ebookmobile .ebook-content-mobile .ebooktxtmmobile h3 {
+  text-align: center;
+  padding: 0 30px;
+  margin-bottom: 15px;
+  font-size: 19px;
+}
+.ebookmobile .ebook-content-mobile a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Wix Madefor Display", sans-serif;
+  margin-top: -100px;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  font-size: 19px;
+  padding: 10px;
+  margin-bottom: 15px;
+  color: rgb(248, 248, 248);
+  background-color: #0097d0;
+  border-top-left-radius: 15px;
+  height: 60px;
+  transition: all 0.3s;
+}
+.ebookmobile .ebook-content-mobile a:hover {
+  transform: scale(0.9);
+  color: #0097d0;
+  background: white;
+  box-shadow: 12px 12px 0px 1px #cddfe9;
+  font-weight: 600;
+}
+
+.slideInRight {
+  animation: slideInRight 0.5s forwards;
+}
+
+.slideOutRight {
+  animation: slideOutRight 0.5s forwards;
+}
+
+.slideInLeft {
+  animation: slideInLeft 0.5s forwards;
+}
+
+.slideOutLeft {
+  animation: slideOutLeft 0.5s forwards;
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slideOutRight {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+}
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slideOutLeft {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
+.snowboard-lessons {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.snowboard-lessons h3 {
+  font-size: 22px;
+  color: #0097d0;
+  text-transform: uppercase;
+  font-family: "Kalnia", serif;
+  text-align: center;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.snowboard-lessons .boxes-lessons {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  justify-content: center;
+}
+.snowboard-lessons .boxes-lessons .lessons-sits {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.snowboard-lessons .boxes-lessons .lessons-sits .lesson {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.snowboard-lessons .boxes-lessons .lessons-sits .lesson p {
+  font-size: 22px;
+  font-family: "Wix Madefor Display", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+.snowboard-lessons .boxes-lessons .lessons-sits .lesson a {
+  font-family: "Wix Madefor Display", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 20px;
+  font-size: 19px;
+  text-decoration: none;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgb(213, 226, 235)), color-stop(0%, rgb(205, 223, 233)), color-stop(100%, rgb(255, 255, 255)));
+  background: linear-gradient(to right, rgb(213, 226, 235) 0%, rgb(205, 223, 233) 0%, rgb(255, 255, 255) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#d5e2eb", endColorstr="#ffffff", GradientType=1 );
+  box-shadow: 0px 0px 15px #cddfe9;
+  color: black;
+  transition: all 0.4s;
+  height: 60px;
+  font-weight: 600;
+  margin-top: 12px;
+  transition: all 0.5s;
+}
+.snowboard-lessons .boxes-lessons .lessons-sits .lesson a:hover {
+  transform: scale(0.9);
+  background: white;
+  box-shadow: 12px 12px 0px 1px #cddfe9;
+  font-weight: 600;
+}
+.snowboard-lessons .boxes-lessons .lessons-ppr {
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+}
+.snowboard-lessons .boxes-lessons .lessons-ppr .lesson {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.snowboard-lessons .boxes-lessons .lessons-ppr .lesson p {
+  font-size: 22px;
+  font-family: "Wix Madefor Display", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+.snowboard-lessons .boxes-lessons .lessons-ppr .lesson a {
+  margin-top: 12px;
+  font-family: "Wix Madefor Display", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 20px;
+  font-size: 19px;
+  text-decoration: none;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  font-weight: 600;
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgb(213, 226, 235)), color-stop(0%, rgb(205, 223, 233)), color-stop(100%, rgb(255, 255, 255)));
+  background: linear-gradient(to right, rgb(213, 226, 235) 0%, rgb(205, 223, 233) 0%, rgb(255, 255, 255) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#d5e2eb", endColorstr="#ffffff", GradientType=1 );
+  box-shadow: 0px 0px 15px #cddfe9;
+  color: black;
+  transition: all 0.4s;
+  height: 60px;
+  transition: all 0.5s;
+}
+.snowboard-lessons .boxes-lessons .lessons-ppr .lesson a:hover {
+  transform: scale(0.9);
+  background: white;
+  box-shadow: 12px 12px 0px 1px #cddfe9;
+  font-weight: 600;
+}
+
+.blog h5 {
+  margin-top: 70px;
+  text-align: center;
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: #0097d0;
+  font-family: "Kalnia", serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.blog .one-group-art {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blog .one-group-art .box-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid black;
+  border-top-left-radius: 15px;
+  width: 80%;
+  box-shadow: 18px 21px 0px 1px #cddfe9;
+  font-family: "Wix Madefor Display", sans-serif;
+  background-color: white;
+}
+.blog .one-group-art .box-article h6 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+.blog .one-group-art .box-article p {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  font-size: 19px;
+}
+.blog .one-group-art .box-article .link-to-more {
+  display: flex;
+  justify-content: end;
+}
+.blog .one-group-art .box-article .link-to-more a {
+  margin-top: 10px;
+  font-size: 19px;
+  text-decoration: none;
+  color: black;
+  transition: all 0.2s;
+  height: 30px;
+}
+.blog .one-group-art .box-article .link-to-more a:hover {
+  transform: scale(0.95);
+  border-bottom: 2px solid #0097d0;
+}
+
+#blog {
+  scroll-margin-top: 134px;
+}
+
+@media (min-width: 330px) {
+  .ebookmobile .ebook-content-mobile a {
+    width: 316px;
+  }
+}
+@media (min-width: 900px) {
+  .snowboard-lessons .boxes-lessons .lessons-sits {
+    flex-direction: row;
+  }
+  .snowboard-lessons .boxes-lessons .lessons-ppr {
+    flex-direction: row;
+  }
+  .blog .one-group-art {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .blog .one-group-art .box-article {
+    width: 40%;
+  }
+}
+.footer-company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 130px;
+}
+.footer-company .footer-company-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.footer-company .footer-company-txt .company-name-cre {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  text-align: center;
+  margin-bottom: -10px;
+}
+
+.footer-company {
+  background: transparent;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin-top: 50px;
+  background: rgb(213, 226, 235);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgb(213, 226, 235)), color-stop(0%, rgb(205, 223, 233)), color-stop(100%, rgb(255, 255, 255)));
+  background: linear-gradient(to right, rgb(213, 226, 235) 0%, rgb(205, 223, 233) 0%, rgb(255, 255, 255) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#d5e2eb", endColorstr="#ffffff", GradientType=1 );
+}
+.footer-company .footer-company-txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-company .links-under {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer-company .links-under a {
+  height: 48px;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  text-decoration: none;
+  opacity: 0;
+}
+.footer-company p {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 19px;
+}
+.footer-company .partners {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 60%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+.footer-company .partners .partner-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 19px;
+  gap: 5px;
+}
+.footer-company .partners .partner-box img {
+  border-top-left-radius: 12px;
+  width: 60px;
+}
+.footer-company .partners .partner-box a {
+  margin-top: 3px;
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+@media (min-width: 880px) {
+  .ebook {
+    display: block;
+  }
+  .ebook .ebook-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    background-color: #0097d0;
+    height: 535px;
+    width: 100%;
+  }
+  .ebook .ebook-content .ebooktxt {
+    font-family: "Wix Madefor Display", sans-serif;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 50%;
+  }
+  .ebook .ebook-content .ebooktxt ul {
+    padding: 15px;
+    font-size: 19px;
+  }
+  .ebook .ebook-content .ebooktxt .company-name {
+    color: white;
+    font-weight: 800;
+  }
+  .ebook .ebook-content .ebooktxt h2 {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: "Kalnia", serif;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .ebook .ebook-content .ebooktxt h3 {
+    font-weight: 700;
+    font-size: 22px;
+  }
+  .ebook .ebook-content .ebooktxt p {
+    margin-top: 20px;
+    font-size: 19px;
+  }
+  .ebook .ebook-content .ebooktxt .link-to-ebook-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 25px;
+    margin-right: 30px;
+    transition: all 0.6s;
+  }
+  .ebook .ebook-content .ebooktxt .link-to-ebook-container .link-to-ebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #cddfe9;
+    width: 190px;
+    font-size: 19px;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    border-top-left-radius: 15px;
+    transition: all 0.5s;
+    height: 60px;
+  }
+  .ebook .ebook-content .ebooktxt .link-to-ebook:hover {
+    transform: scale(0.9);
+    background-color: #fff;
+    box-shadow: 12px 12px 0px 1px #cddfe9;
+  }
+  .ebook .ebook-content .mockup-desktop {
+    width: 50%;
+    height: 535px;
+  }
+  .ebookmobile {
+    display: none;
+  }
+}
+@media (min-width: 700px) {
+  .home .image-container .centerhead {
+    top: 280px;
+  }
+  .home .image-container .centerhead .new {
+    font-size: 66px;
+    backdrop-filter: blur(0.5px);
+    -webkit-backdrop-filter: blur(0.5px);
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0;
+  }
+}
+@media (min-width: 700px) and (max-width: 980px) {
+  .home .image-container .mobileheadimg {
+    display: none;
+  }
+  .home .image-container .mediumheadimg {
+    display: block;
+  }
+  .home .image-container .mediumheadimg .parallax-image {
+    height: 100vh;
+  }
+  .home .image-container .mediumheadimg .parallax-image img {
+    height: 100vh;
+  }
+}
+@media (min-width: 980px) {
+  .home .image-container .desktopheadimg {
+    display: block;
+  }
+  .home .image-container .desktopheadimg .parallax-image {
+    height: 100vh;
+  }
+  .home .image-container .desktopheadimg .parallax-image img {
+    height: 100vh;
+  }
+  .home .image-container .mobileheadimg {
+    display: none;
+  }
+  .home .image-container .mediumheadimg {
+    display: none;
+  }
+  .home .image-container .centerhead .btns {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .home .image-container .centerhead .btns .btn-flex .btn-ones,
+  .home .image-container .centerhead .btns .btn-flex .btn-twos,
+  .home .image-container .centerhead .btns .btn-flex .btn-thre,
+  .home .image-container .centerhead .btns .btn-flex .btn-four {
+    margin-top: 15px;
+    justify-content: start;
+    width: auto;
+  }
+  .home .image-container .centerhead .btns .btn-flex .btn-ones {
+    margin-top: 15px;
+  }
+  .home .image-container .centerhead .new {
+    backdrop-filter: blur(0.85px);
+    -webkit-backdrop-filter: blur(0.85px);
+  }
+  .reviews #content .testimonial blockquote .review-txt {
+    text-align: justify;
+  }
+}
+.reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  font-family: "Wix Madefor Display", sans-serif;
+  z-index: 1998;
+}
+.reviews .review-head {
+  padding: 15px;
+}
+.reviews .review-head .feel-head {
+  font-size: 22px;
+  text-align: center;
+  font-weight: 400;
+}
+.reviews .review-head .feel-head span {
+  display: block;
+  text-transform: uppercase;
+  color: #0097d0;
+  font-family: "Kalnia", serif;
+  font-weight: 400;
+}
+.reviews .review-head .feeling {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #0097d0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: "Kalnia", serif;
+  font-weight: 400;
+}
+.reviews .review-head .head-with-newline {
+  text-align: center;
+  text-align: center;
+  font-weight: 100;
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+.reviews .review-head .head-without-line {
+  display: none;
+}
+.reviews .review-head .customers {
+  font-size: 19px;
+  text-align: center;
+}
+.reviews #content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1100px;
+}
+.reviews #content .box-review-content {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.reviews #content .testimonial {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.reviews #content .testimonial blockquote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -2px 0px 0;
+  background: transparent;
+  padding: 12px;
+  position: relative;
+  border: 1px solid black;
+  font-size: 19px;
+  border-top-left-radius: 25px;
+  font-style: italic;
+  margin-right: 40px;
+  margin-left: 3px;
+  background-color: rgba(255, 255, 255, 0.705);
+}
+.reviews #content .testimonial blockquote .opinion-img {
+  width: 200px;
+}
+.reviews #content .testimonial blockquote .review-txt {
+  position: relative;
+  z-index: 1;
+  white-space: pre-wrap;
+}
+.reviews #content .testimonial blockquote .bgc-reviews-words {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  left: -50%;
+  font-size: 13.5vw;
+  height: 100%;
+  width: 10px;
+  opacity: 0.7;
+  font-family: "Kalnia", serif;
+  color: #cddfe9;
+}
+.reviews #content .testimonial blockquote .bgc-reviews-words p {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.reviews #content .testimonial blockquote .bgc-reviews-words p .line-after {
+  justify-content: space-between;
+}
+.reviews #content .testimonial blockquote .bgc-reviews-words p .line-before {
+  justify-content: flex-start;
+}
+.reviews #content .testimonial blockquote .bgc-reviews-words .line-after::after,
+.reviews #content .testimonial blockquote .bgc-reviews-words .line-before::before {
+  content: "";
+  display: block;
+  width: 55px;
+  height: 10px;
+  background: #cddfe9;
+  margin-left: 20px;
+}
+.reviews #content .testimonial blockquote .bgc-reviews-words .line-before::before {
+  margin-right: 20px;
+}
+.reviews #content .testimonial blockquote .line {
+  width: 50px;
+  height: 10px;
+  background-color: black;
+}
+.reviews #content .testimonial button {
+  position: absolute;
+  right: -35px;
+  bottom: -5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  width: 20px;
+  margin: 5px;
+  height: 100%;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #cddfe9;
+  border: 1px solid #ffffff;
+  color: rgb(0, 0, 0);
+  align-self: stretch;
+  font-weight: 600;
+}
+.reviews #content .head-review {
+  width: 98vw;
+  text-align: center;
+  z-index: -1000;
+}
+.reviews #content .head-review h3 {
+  position: relative;
+  letter-spacing: 3px;
+  margin-top: 30px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 10vw;
+  color: #cddfe9;
+  font-family: "Kalnia", serif;
+  width: 98vw;
+  z-index: 2000;
+}
+.reviews #content .testimonial blockquote:before,
+.reviews #content .testimonial blockquote:after {
+  position: absolute;
+  font-size: 80px;
+  line-height: 1;
+  color: #757f9a;
+  font-style: normal;
+}
+.reviews #content .testimonial blockquote:before {
+  top: 0;
+  left: 10px;
+}
+.reviews #content .testimonial blockquote:after {
+  right: 10px;
+  bottom: -0.5em;
+}
+.reviews #content .testimonial .who {
+  position: relative;
+  top: -1.3px;
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #000000;
+  margin: 0 0 0 60px;
+  z-index: 2000;
+}
+.reviews #content .testimonial .author {
+  margin: 8px 0 0 20px;
+  text-align: left;
+  color: #000000;
+  font-size: 19px;
+  padding: 5px;
+}
+
+.insta-feed {
+  margin-top: 75px;
+}
+.insta-feed .insta-head {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.insta-feed .insta-head h6 {
+  font-family: "Kalnia", serif;
+  text-align: center;
+  color: #0097d0;
+  font-size: 22px;
+}
+.insta-feed .insta-head h6 span {
+  display: block;
+}
+.insta-feed .wrapper-insta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.insta-feed .wrapper-insta .insta-line {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cddfe9;
+  width: calc(100% - 5px);
+  height: 60px;
+}
+.insta-feed .wrapper-insta .insta-line a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.insta-feed .wrapper-insta .insta-line a p {
+  font-size: 22px;
+  font-family: "Wix Madefor Display", sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  margin-left: 5px;
+}
+.insta-feed .wrapper-insta .insta-posts,
+.insta-feed .wrapper-insta .insta-posts-mob {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 100%;
+}
+.insta-feed .wrapper-insta .insta-posts .column,
+.insta-feed .wrapper-insta .insta-posts-mob .column {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+  width: 100%;
+}
+.insta-feed .wrapper-insta .insta-posts .column .img-posts-ig,
+.insta-feed .wrapper-insta .insta-posts-mob .column .img-posts-ig {
+  width: calc(33.3% - 5px);
+  height: auto;
+}
+
+@media (max-width: 620px) {
+  .insta-feed .wrapper-insta .insta-posts {
+    display: none;
+  }
+}
+@media (min-width: 620px) {
+  .insta-feed .wrapper-insta .insta-posts {
+    display: flex;
+  }
+  .insta-feed .wrapper-insta .insta-posts-mob {
+    display: none;
+  }
+}
+@media (min-width: 345px) {
+  .reviews #content .box-review-content .testimonial blockquote .opinion-img {
+    width: 250px;
+  }
+}
+@media (min-width: 390px) {
+  .reviews #content .box-review-content .testimonial blockquote .opinion-img {
+    width: 300px;
+  }
+}
+@media (min-width: 500px) {
+  .reviews #content .testimonial blockquote .bgc-reviews-words {
+    font-size: 2.9em;
+  }
+  .reviews #content .testimonial blockquote .bgc-reviews-words p:nth-child(1) {
+    margin-right: 50px;
+  }
+  .reviews #content .testimonial blockquote .bgc-reviews-words p:nth-child(2) {
+    margin-left: 50px;
+  }
+  .reviews #content .testimonial blockquote .bgc-reviews-words p:nth-child(3) {
+    margin-right: 50px;
+  }
+  .insta-feed .insta-head h6 span {
+    display: inline;
+  }
+}
+@media (min-width: 480px) {
+  .reviews .review-head .head-with-newline {
+    display: none;
+  }
+  .reviews .review-head .head-without-line {
+    display: block;
+    text-align: center;
+    text-align: center;
+    font-weight: 100;
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #000000;
+    margin: 0 20px;
+  }
+  .reviews .review-head .head-without-line .feeling-desktop {
+    color: #0097d0;
+    margin: 6px 0;
+    text-transform: uppercase;
+    font-family: "Kalnia", serif;
+    font-weight: 400;
+  }
+}
+@media (min-width: 1024px) {
+  .reviews #content .box-review-content .testimonial blockquote .opinion-img {
+    width: 500px;
+  }
+  .footer-company .partners .partner-box img {
+    width: 90px;
+    height: 90px;
+  }
+  .footer-company .partners .partner-box a {
+    font-size: 19px;
+  }
+}
+@media (min-height: 1200px) {
+  .home .image-container .desktopheadimg {
+    padding-top: 0;
+  }
+}
+@media (min-width: 1210px) {
+  .snowboard-lessons .boxes-lessons .lessons-sits {
+    flex-direction: row;
+  }
+  .snowboard-lessons .boxes-lessons .lessons-sits .lesson {
+    width: 350px;
+  }
+  .snowboard-lessons .boxes-lessons .lessons-ppr {
+    flex-direction: row;
+  }
+  .snowboard-lessons .boxes-lessons .lessons-ppr .lesson {
+    width: 350px;
+  }
+}
+@media (min-width: 1240px) {
+  .btn-flex {
+    display: flex;
+    gap: 20px;
+  }
+}/*# sourceMappingURL=Home.css.map */
+

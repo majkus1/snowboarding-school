@@ -1,0 +1,171 @@
+.offer .offer-head {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.offer .offer-head h1 {
+  color: #000000;
+  font-family: "Kalnia", serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 27px;
+  font-weight: 800;
+}
+.offer .boxes-offers-head {
+  margin-top: 100px;
+  font-family: "Kalnia", serif;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+.offer .boxes-offers {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Wix Madefor Display", sans-serif;
+  gap: 20px;
+}
+.offer .boxes-offers .box-with-offer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 22px;
+}
+.offer .boxes-offers .box-with-offer h2 {
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-family: "Kalnia", serif;
+  color: #0097d0;
+}
+.offer .boxes-offers .box-with-offer .link-to-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 22px;
+  padding: 10px;
+  box-shadow: 0px 0px 15px #cddfe9;
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgb(213, 226, 235)), color-stop(0%, rgb(205, 223, 233)), color-stop(100%, rgb(255, 255, 255)));
+  background: linear-gradient(to right, rgb(213, 226, 235) 0%, rgb(205, 223, 233) 0%, rgb(255, 255, 255) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#d5e2eb", endColorstr="#ffffff", GradientType=1 );
+  color: rgb(0, 0, 0);
+  border-top-left-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  min-height: 60px;
+  transition: all 0.5s;
+}
+.offer .boxes-offers .box-with-offer .link-to-page:hover {
+  background: white;
+  color: black;
+  box-shadow: 12px 12px 0px 1px #cddfe9;
+  transform: scale(0.9);
+}
+.offer .boxes-offers .box-with-offer .dscrb-page {
+  font-size: 19px;
+}
+.offer .ebook-and-pp {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.offer .ebook-and-pp p {
+  font-size: 22px;
+  font-family: "Wix Madefor Display", sans-serif;
+  margin-bottom: 30px;
+}
+.offer .ebook-and-pp .others-offers {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.offer .ebook-and-pp .others-offers a {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Wix Madefor Display", sans-serif;
+  text-decoration: none;
+  padding: 12px;
+  font-size: 22px;
+  height: 80px;
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgb(213, 226, 235)), color-stop(0%, rgb(205, 223, 233)), color-stop(100%, rgb(255, 255, 255)));
+  background: linear-gradient(to right, rgb(213, 226, 235) 0%, rgb(205, 223, 233) 0%, rgb(255, 255, 255) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#d5e2eb", endColorstr="#ffffff", GradientType=1 );
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border-top-left-radius: 20px;
+  transition: all 0.5s;
+  font-weight: 600;
+  box-shadow: 0px 0px 15px #cddfe9;
+}
+.offer .ebook-and-pp .others-offers a:hover {
+  background: white;
+  color: black;
+  border: 1px solid black;
+  box-shadow: 12px 12px 0px 1px #cddfe9;
+  transform: scale(0.9);
+}
+.offer .ebook-and-pp .others-offers p {
+  display: none;
+}
+
+.ebook-infos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+.ebook-infos h5,
+.ebook-infos h1 {
+  text-align: center;
+  font-size: 22px;
+  font-family: "Kalnia", serif;
+}
+.ebook-infos h5 span,
+.ebook-infos h1 span {
+  display: block;
+}
+
+.why-content ul {
+  margin-bottom: 20px;
+  padding: 7px;
+  margin-left: 30px;
+}
+.why-content ul li {
+  font-size: 19px;
+}
+
+@media (min-width: 900px) {
+  .offer .offer-head h1 {
+    font-size: 34px;
+  }
+}
+@media (min-width: 385px) {
+  .offer .boxes-offers .box-with-offer .link-to-page {
+    width: 330px;
+  }
+}
+@media (min-width: 1024px) {
+  .offer .boxes-offers {
+    flex-direction: row;
+    width: 100%;
+  }
+  .offer .boxes-offers .box-with-offer {
+    width: 33.3%;
+  }
+  .offer .ebook-and-pp .others-offers {
+    flex-direction: row;
+  }
+  .offer .ebook-and-pp .others-offers p {
+    display: block;
+  }
+}/*# sourceMappingURL=Offer.css.map */

@@ -1,0 +1,94 @@
+.warroz {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.warroz h2 {
+    padding-top: 60px;
+    font-family: 'Kalnia', serif;
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+.warroz-txt-info {
+    font-size: 20px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    color: black;
+    padding: 5px;
+    padding-top: 30px;
+    text-align: left;
+    padding-right: 30px;
+}
+
+.warroz-txt-info a {
+    color: #0097d0;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+
+.warroz-video-ig {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 900px;
+}
+
+.check-lessons {
+    text-align: center;
+    font-family: 'Kalnia', serif;
+    font-size: 22px;
+    color: black;
+    text-transform: uppercase;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.warroz-video-ig .wr-ig-one {
+    width: 33.3%;
+}
+
+.warroz-video-ig .wr-ig-two {
+    width: 33.3%;
+}
+
+.warroz-video-ig .wr-ig-three {
+    width: 33.3%;
+}
+
+.warroz-video-ig img {
+    width: 100%;
+}
+
+@media (min-width: 900px) {
+    .warroz h2 {
+        font-size: 34px;
+    }
+    .warroz-txt-info {
+        text-align: center;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 1023px) {
+    .warroz-txt-info {
+        padding-left: 20px;
+        padding-right: 32px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .warroz-txt-info {
+        padding: 5px;
+        padding-right: 30px;
+        padding-top: 30px;
+    }
+}
+
+.warroz h2 {
+    text-align: center;
+}

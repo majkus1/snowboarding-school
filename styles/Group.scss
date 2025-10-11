@@ -1,0 +1,1388 @@
+// .info-soon {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     height: 500px;
+
+//     p {
+//         font-size: 22px;
+//         font-family: 'Wix Madefor Display', sans-serif;
+//         padding: 15px;
+
+//         span {
+//             color: #0097d0;
+//             font-weight: bold;
+//         }
+//     }
+// }
+
+// .photos-snow-pow-camp {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//     margin: 0 auto;
+
+//     img {
+//         margin-bottom: 8px;
+//     }
+// }
+
+// @media (min-width: 1024px) {
+//     // .modal2 {
+//     //     display: none;
+//     // }
+
+//     .photos-snow-pow-camp {
+//         width: 80%;
+//     }
+// }
+
+.boot-camp-welcome {
+	display: flex;
+	flex-direction: column;
+	padding-top: 60px;
+	h1 {
+		order: 2;
+		font-size: 22px;
+		font-family: 'Wix Madefor Display', sans-serif;
+		letter-spacing: 4px;
+		color: #30c5b0;
+		text-align: center;
+		font-weight: 100;
+		text-transform: uppercase;
+	}
+	h2 {
+		order: 1;
+		font-size: 27px;
+		font-family: 'Kalnia', serif;
+		font-family: 'Kalnia', serif;
+		font-weight: 800;
+		letter-spacing: 4px;
+		color: black;
+		text-align: center;
+		text-transform: uppercase;
+
+		span {
+			display: block;
+		}
+	}
+	.container-opinion {
+		order: 3;
+		display: flex;
+		justify-content: space-around;
+		gap: 10px;
+		padding: 10px;
+		.opinion-welcome {
+			border-top-left-radius: 20px !important;
+			// padding-top: 30px;
+			margin: 0 auto;
+			margin-top: 30px;
+			width: 50%;
+			cursor: pointer;
+		}
+	}
+	.become-instructor {
+		margin-top: 30px;
+		order: 2;
+
+		.link-to-shop-bootcamp {
+			display: flex;
+			align-items: center;
+			background-color: #30c5b0;
+			color: black;
+			text-decoration: none;
+			font-family: 'Wix Madefor Display', sans-serif;
+			font-size: 19px;
+			font-weight: bold;
+			text-align: center;
+			height: 60px;
+			padding-left: 8px;
+			padding-right: 8px;
+			border-top-left-radius: 20px;
+			transition: all 0.5s;
+		}
+		.link-to-shop-bootcamp:hover {
+			transform: scale(0.9);
+			background: none;
+			border: 1px solid black;
+			color: black;
+			-webkit-box-shadow: 12px 12px 0px 1px #30c5b0;
+			-moz-box-shadow: 12px 12px 0px 1px #30c5b0;
+			box-shadow: 12px 12px 0px 1px #30c5b0;
+		}
+	}
+
+	// .modal-camp {
+
+	//     .img-slider-modal {
+	//         width: 30%;
+	//     }
+	// }
+	.age-container-flex {
+		margin-top: 15px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		font-family: 'Wix Madefor Display', sans-serif;
+		.age-txt-head {
+			font-size: 14px;
+			font-weight: 800;
+			margin-left: 15px;
+		}
+		// .age-container {
+		// 	display: flex;
+		// 	align-items: center;
+		// 	justify-content: start;
+		// 	.age {
+		// 		text-align: start;
+		// 		font-size: 19px;
+		// 		margin-left: 80px;
+		// 	}
+		// 	img {
+		// 		padding: 10px;
+		// 		width: 75px;
+		// 	}
+		// }
+		.ageandlevel {
+			display: flex;
+			flex-direction: column;
+			width: 60%;
+
+			.age {
+				display: flex;
+				flex-direction: column;
+				margin-bottom: 10px;
+
+				.number-age-txt {
+					margin-right: 61px;
+					margin-left: 15px;
+				}
+
+				p {
+					display: flex;
+					align-items: center;
+				}
+			}
+
+			.level {
+				display: flex;
+				flex-direction: column;
+
+				.level-txt {
+					display: flex;
+					flex-direction: column;
+					margin-left: 15px;
+
+					p {
+						display: flex;
+						align-items: center;
+					}
+				}
+			}
+		}
+		.icon-snowboarders {
+			// padding-right: 36px;
+			img {
+				width: 55px;
+			}
+		}
+	}
+}
+
+@media (min-width: 1020px) {
+	.blocks-content {
+		.age-container-flex {
+			.ageandlevel {
+				.age {
+					display: flex;
+					flex-direction: row;
+					align-items: center;
+					justify-content: space-between;
+				}
+				.level {
+					flex-direction: row;
+					align-items: center;
+					justify-content: space-between;
+				}
+			}
+			.icon-snowboarders {
+				padding-right: 35px;
+			}
+		}
+	}
+}
+
+.timer {
+	margin-top: 70px;
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Wix Madefor Display', sans-serif;
+	order: 5;
+	border: 2px solid #30c5b0;
+
+	p {
+		font-size: 22px;
+		color: black;
+		// font-weight: bold;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.time {
+		margin-top: 5px;
+		color: black;
+		font-size: 22px;
+		padding: 15px;
+		background-color: #30c5b0;
+		width: 260px;
+		font-weight: lighter;
+		text-align: center;
+
+		.day {
+			color: white;
+		}
+	}
+}
+
+// .dontwait {
+// 	font-family: 'Wix Madefor Display', sans-serif;
+// 	display: flex;
+// 	flex-direction: column;
+// 	align-items: center;
+// 	font-size: 22px;
+
+// 	.btn-to-shop-two {
+// 		display: flex;
+// 		flex-direction: column;
+// 		align-items: center;
+// 		justify-content: center;
+// 		button {
+// 			font-family: 'Wix Madefor Display', sans-serif;
+// 			text-decoration: none;
+// 			color: rgb(248, 248, 248);
+// 			background-color: #30c5b0;
+// 			font-size: 19px;
+// 			text-align: center;
+// 			border-top-left-radius: 15px;
+// 			transition: all 0.5s;
+// 			font-weight: 600;
+// 			height: 70px;
+// 			cursor: pointer;
+// 			border: none;
+// 			font-size: 22px;
+
+// 			a {
+// 				display: flex;
+// 				align-items: center;
+// 				text-decoration: none;
+// 				color: black;
+// 				padding: 10px;
+// 			}
+// 		}
+// 		button:hover {
+// 			transform: scale(0.9);
+// 			background: white;
+// 			border: 1px solid black;
+// 			color: black;
+// 			-webkit-box-shadow: 12px 12px 0px 1px #30c5b0;
+// 			-moz-box-shadow: 12px 12px 0px 1px #30c5b0;
+// 			box-shadow: 12px 12px 0px 1px #30c5b0;
+// 		}
+// 	}
+// }
+
+.slider {
+	padding-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	order: 6;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+	img {
+		cursor: pointer;
+	}
+
+	button {
+		height: 40px;
+		width: 40px;
+		margin: 2px;
+		background-color: #000000;
+		color: white;
+		font-size: 19px;
+		cursor: pointer;
+		border: 1px solid white;
+	}
+}
+
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-content {
+	margin: 0 auto;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	img {
+		width: 80%;
+	}
+}
+
+.close-button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background-color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.prev-button,
+.next-button {
+	background-color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.img-slider {
+	width: 40%;
+	padding: 4px;
+}
+
+.about-boot-camp {
+	h3 {
+		margin-top: 30px;
+		font-family: 'Kalnia', serif;
+		font-size: 22px;
+		text-align: center;
+		letter-spacing: 1px;
+		color: #30c5b0;
+		font-weight: 400;
+	}
+
+	.content-about-camp {
+		font-family: 'Wix Madefor Display', sans-serif;
+		font-size: 19px;
+		max-width: 970px;
+		margin: 0 auto;
+		text-align: start;
+		padding: 14px;
+
+		.column-about {
+			display: flex;
+			flex-direction: column;
+
+			width: 100%;
+
+			.one-column {
+				width: 100%;
+				margin-bottom: 15px;
+				.icon-about-camp {
+					width: 45px;
+				}
+
+				.list {
+					display: flex;
+					align-items: center;
+					padding: 10px;
+
+					p {
+						font-weight: bold;
+					}
+				}
+			}
+		}
+		.last-one-list {
+			.list {
+				display: flex;
+				align-items: center;
+				padding: 10px;
+
+				.icon-about-camp {
+					width: 45px;
+				}
+
+				p {
+					font-weight: bold;
+				}
+			}
+		}
+	}
+	.btn-i-want-camp {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		button {
+			font-family: 'Wix Madefor Display', sans-serif;
+			text-decoration: none;
+			color: rgb(248, 248, 248);
+			background-color: #30c5b0;
+			font-size: 19px;
+			text-align: center;
+			border-top-left-radius: 15px;
+			transition: all 0.5s;
+			font-weight: 600;
+			height: 70px;
+			cursor: pointer;
+			border: none;
+			font-size: 22px;
+
+			a {
+				display: flex;
+				align-items: center;
+				text-decoration: none;
+				color: black;
+				padding: 10px;
+			}
+		}
+		button:hover {
+			transform: scale(0.9);
+			background: white;
+			border: 1px solid black;
+			color: black;
+			-webkit-box-shadow: 12px 12px 0px 1px #30c5b0;
+			-moz-box-shadow: 12px 12px 0px 1px #30c5b0;
+			box-shadow: 12px 12px 0px 1px #30c5b0;
+		}
+
+		img {
+			padding: 5px;
+			// padding-top: 35px;
+			margin-top: 35px;
+			border-top-left-radius: 20px;
+			width: 100%;
+		}
+	}
+}
+
+.box-mental {
+	width: 95%;
+	padding: 10px;
+	margin-left: 5px;
+	padding-top: 15px;
+	background-color: white;
+	border-top-left-radius: 20px;
+	-webkit-box-shadow: 18px 21px 0px 1px #30c5b17d;
+	-moz-box-shadow: 18px 21px 0px 1px #30c5b17d;
+	box-shadow: 18px 21px 0px 1px #30c5b17d;
+	margin-top: 35px;
+
+	.price-boxes {
+		.box-with-price {
+			display: flex;
+			align-items: center;
+			font-family: 'Wix Madefor Display', sans-serif;
+			font-size: 19px;
+			font-weight: 600;
+			color: #30c5b0;
+
+			img {
+				width: 85px;
+				border-top-left-radius: 20px;
+				margin-right: 10px;
+			}
+		}
+		a {
+			text-decoration: underline;
+		}
+	}
+
+	.headers-price-box {
+		.box-with-price:nth-child(2) {
+			margin-top: 10px;
+		}
+	}
+
+	.price-box {
+		font-family: 'Wix Madefor Display', sans-serif;
+		font-size: 19px;
+		margin-top: 25px;
+		// display: flex;
+		// align-items: center;
+		// justify-content: space-between;
+
+		p {
+			display: flex;
+			align-items: center;
+			margin-top: 12px;
+		}
+
+		img {
+			width: 35px;
+			margin-right: 7px;
+		}
+
+		.price-boxes {
+			// order: 1;
+			margin-top: 25px;
+
+			// margin-right: 60px;
+			.box-with-price {
+				img {
+					width: 100px;
+				}
+				p {
+					font-weight: 800;
+				}
+			}
+			.box-with-price:nth-child(2) {
+				margin-top: 15px;
+			}
+		}
+	}
+
+	.price-box-two {
+		font-family: 'Wix Madefor Display', sans-serif;
+		font-size: 19px;
+		margin-top: 25px;
+
+		p {
+			display: flex;
+			align-items: start;
+			margin-top: 12px;
+		}
+
+		img {
+			width: 35px;
+			margin-right: 7px;
+		}
+	}
+
+	.mental-head {
+		text-align: center;
+		font-size: 22px;
+		font-family: 'Kalnia', serif;
+		color: #30c5b0;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+	.mental-content {
+		font-family: 'Wix Madefor Display', sans-serif;
+		font-size: 19px;
+		color: black;
+
+		p {
+			padding-top: 20px;
+			padding-left: 5px;
+		}
+
+		.when {
+			display: flex;
+			justify-content: center;
+			align-items: start;
+			.accept {
+				width: 30px;
+				margin-right: 8px;
+			}
+		}
+
+		.question-about-camp {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background-color: #fcfcfc;
+			color: black;
+			text-decoration: none;
+			font-family: 'Wix Madefor Display', sans-serif;
+			font-size: 19px;
+			font-weight: bold;
+			text-align: center;
+			width: 260px;
+			height: 60px;
+			padding-left: 8px;
+			padding-right: 8px;
+			border-top-left-radius: 20px;
+			transition: all 0.5s;
+			margin-bottom: 15px;
+			border: 1px solid black;
+			cursor: pointer;
+
+			a {
+				display: flex;
+				align-items: center;
+				text-decoration: none;
+				color: black;
+			}
+		}
+		.question-about-camp:hover {
+			transform: scale(0.9);
+			background: none;
+			border: 1px solid black;
+			color: black;
+			-webkit-box-shadow: 12px 12px 0px 1px #30c5b0;
+			-moz-box-shadow: 12px 12px 0px 1px #30c5b0;
+			box-shadow: 12px 12px 0px 1px #30c5b0;
+		}
+	}
+	.content-resort {
+		display: flex;
+		margin-top: 15px;
+		// flex-direction: row;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		padding: 5px;
+		font-family: 'Wix Madefor Display', sans-serif;
+		font-size: 19px;
+
+		.linksresort {
+			display: flex;
+			// align-items: center;
+			flex-direction: column;
+			justify-content: space-around;
+			padding: 5px;
+
+			.resortul {
+				p {
+					// text-align: center;
+					font-weight: 800;
+					margin-top: 5px;
+					margin-bottom: 15px;
+				}
+				a {
+					display: flex;
+					align-items: center;
+					text-decoration: none;
+					color: black;
+					padding-bottom: 12px;
+				}
+			}
+
+			.advantageresort {
+				position: relative; // Dodajemy pozycjonowanie względne
+				display: flex;
+				flex-direction: column;
+				gap: 10px;
+				// padding-top: 10px;
+
+				// .placeweatherandlevel {
+				// 	margin-bottom: 25px;
+				// }
+
+				// &::before {
+				// 	content: "";
+				// 	position: absolute;
+				// 	left: -3px; // Ustawiamy na lewo od elementu
+				// 	top: 0;
+				// 	bottom: 0;
+				// 	width: 3px;
+				// 	background-color: black; // Kolor kreski
+				// }
+
+				margin-top: 10px;
+
+				.plustext {
+					color: #30c5b0;
+					font-weight: bold;
+				}
+
+				.content-plus {
+					display: flex;
+					justify-content: start;
+					align-items: center;
+
+					img {
+						width: 35px;
+						margin-right: 7px;
+					}
+
+					p {
+						padding-bottom: 0;
+					}
+				}
+				// .content-plus:nth-child(1) {
+				// 	margin-bottom: 40px;
+				// }
+			}
+		}
+
+		.big-image-resort {
+			// width: 60%;
+			img {
+				width: 100%;
+			}
+		}
+		.placeweatherandlevel {
+			text-align: center;
+			width: 100%;
+			margin-top: 20px;
+			margin-bottom: 25px;
+		}
+	}
+	.house {
+		font-size: 19px;
+		font-family: 'Wix Madefor Display', sans-serif;
+		margin-top: 25px;
+		padding-bottom: 25px;
+
+		.housebrelok {
+			padding-top: 25px;
+		}
+
+		.food {
+			text-align: center;
+			margin-top: -20px;
+			font-weight: bold;
+		}
+	}
+	.boot-camp-why-ppr {
+		// text-align: center;
+		// max-width: 850px;
+		margin: 0 auto;
+		// display: flex;
+		// flex-direction: column;
+		// justify-content: center;
+		// align-items: center;
+		font-family: 'Wix Madefor Display', sans-serif;
+		h4 {
+			font-size: 22px;
+		}
+		.contents-why-boot-camp {
+			display: flex;
+			flex-direction: column;
+			// align-items: center;
+			margin-top: 25px;
+			.boot-camp-why-content {
+				// text-align: center;
+				margin-top: 10px;
+				font-size: 14px;
+				display: flex;
+				align-items: center;
+				padding: 5px;
+
+				img {
+					width: 35px;
+					margin-right: 7px;
+				}
+			}
+		}
+		.end-why {
+			padding: 7px;
+			padding-top: 25px;
+			padding-bottom: 25px;
+			font-size: 19px;
+		}
+	}
+	.two-opinion {
+		// margin: 0 auto;
+		// width: 62%;
+		display: flex;
+
+		img {
+			width: 50%;
+			padding: 10px;
+			cursor: pointer;
+		}
+	}
+	.dontwait {
+		font-family: 'Wix Madefor Display', sans-serif;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 20px;
+		font-size: 22px;
+		margin-top: 25px;
+		margin-bottom: 25px;
+
+		.number-slot {
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+		}
+
+		.btn-to-shop-two {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			button {
+				font-family: 'Wix Madefor Display', sans-serif;
+				text-decoration: none;
+				color: rgb(248, 248, 248);
+				background-color: #30c5b0;
+				font-size: 19px;
+				text-align: center;
+				border-top-left-radius: 15px;
+				transition: all 0.5s;
+				font-weight: 600;
+				height: 70px;
+				cursor: pointer;
+				border: none;
+				font-size: 22px;
+
+				a {
+					display: flex;
+					align-items: center;
+					text-decoration: none;
+					color: black;
+					padding: 10px;
+				}
+			}
+			button:hover {
+				transform: scale(0.9);
+				background: white;
+				border: 1px solid black;
+				color: black;
+				-webkit-box-shadow: 12px 12px 0px 1px #30c5b0;
+				-moz-box-shadow: 12px 12px 0px 1px #30c5b0;
+				box-shadow: 12px 12px 0px 1px #30c5b0;
+			}
+		}
+	}
+	.organization-txt {
+		font-family: 'Wix Madefor Display', sans-serif;
+		margin-top: 25px;
+		margin-bottom: 25px;
+		text-align: center;
+		font-size: 19px;
+	}
+}
+
+.housebrelok {
+	margin-top: 12px;
+	width: 100%;
+	padding: 5px;
+}
+
+.parents-box-head {
+	padding: 15px;
+	font-size: 22px;
+	font-family: 'Wix Madefor Display', sans-serif;
+}
+
+.parents-box-content {
+	// padding: 15px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Wix Madefor Display', sans-serif;
+	.parents-box-content-txt {
+		font-size: 19px;
+		display: flex;
+		align-items: center;
+		margin-top: 12px;
+
+		img {
+			width: 35px;
+			margin-right: 7px;
+		}
+	}
+}
+.btn-contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	.telicon-sbc {
+		a {
+			text-decoration: none;
+			margin-left: 8px;
+			color: black;
+			font-size: 19px;
+			font-weight: bold;
+			font-family: 'Wix Madefor Display', sans-serif;
+		}
+	}
+	.question-about-camp {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #fcfcfc;
+		color: black;
+		text-decoration: none;
+		font-family: 'Wix Madefor Display', sans-serif;
+		font-size: 19px;
+		font-weight: bold;
+		text-align: center;
+		width: 260px;
+		height: 60px;
+		padding-left: 8px;
+		padding-right: 8px;
+		border-top-left-radius: 20px;
+		transition: all 0.5s;
+		margin-bottom: 15px;
+		border: 1px solid black;
+		cursor: pointer;
+
+		a {
+			display: flex;
+			align-items: center;
+			text-decoration: none;
+			color: black;
+		}
+	}
+}
+.btn-contact {
+	.question-about-camp:hover {
+		transform: scale(0.9);
+		background: none;
+		border: 1px solid black;
+		color: black;
+		-webkit-box-shadow: 12px 12px 0px 1px #30c5b0;
+		-moz-box-shadow: 12px 12px 0px 1px #30c5b0;
+		box-shadow: 12px 12px 0px 1px #30c5b0;
+	}
+}
+
+.end-parent {
+	font-size: 19px;
+	color: black;
+	font-weight: bold;
+	font-family: 'Wix Madefor Display', sans-serif;
+	margin-bottom: 7px;
+}
+
+.spbc-dscrb {
+	max-width: 950px;
+	margin: 0 auto;
+	margin-top: 50px;
+	display: flex;
+	align-items: start;
+	justify-content: center;
+	flex-direction: column;
+	padding: 7px;
+	.spbc-dscrb-txt {
+		p {
+			font-family: 'Wix Madefor Display', sans-serif;
+			font-size: 22px;
+			span {
+				font-family: 'Kalnia', serif;
+				color: #30c5b0;
+				font-weight: 800;
+				font-size: 27px;
+			}
+		}
+	}
+}
+
+.opinion-maja {
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+	padding: 7px;
+	img {
+		border-top-left-radius: 20px;
+		width: 100%;
+	}
+}
+
+.bootcamp-price {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: flex;
+	font-family: 'Wix Madefor Display', sans-serif;
+	justify-content: center;
+}
+
+@media (min-width: 345px) {
+	.box-mental {
+		.boot-camp-why-ppr {
+			.contents-why-boot-camp {
+				.boot-camp-why-content {
+					font-size: 19px;
+				}
+			}
+		}
+	}
+}
+
+// .brelokcontent:nth-child(1) {
+//     margin-top: 30px;
+// }
+
+@media (min-width: 480px) {
+	.boot-camp-welcome {
+		h2 {
+			span {
+				display: inline;
+			}
+		}
+	}
+}
+
+@media (min-width: 670px) {
+	.slider {
+		.modal {
+			.modal-content {
+				img {
+					width: 35%;
+				}
+			}
+		}
+	}
+	.about-boot-camp {
+		.content-about-camp {
+			.one-column {
+				.justifytxt {
+					text-align: justify;
+				}
+			}
+		}
+		.btn-i-want-camp {
+			img {
+				width: 60%;
+			}
+		}
+	}
+	.opinion-maja {
+		img {
+			width: 60%;
+		}
+	}
+}
+
+.qr {
+	margin-top: 60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #30c5b0;
+	p {
+		text-align: center;
+		font-size: 22px;
+		font-family: 'Wix Madefor Display', sans-serif;
+		color: black;
+		font-weight: bold;
+		padding: 7px;
+		margin-right: 7px;
+	}
+
+	img {
+		width: 150px;
+		padding: 5px;
+	}
+}
+
+.org {
+	display: flex;
+	justify-content: center;
+	font-family: 'Wix Madefor Display', sans-serif;
+	color: black;
+	font-size: 19px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.program-camp-month {
+	font-family: 'Wix Madefor Display', sans-serif;
+
+	.head-pcm {
+		font-size: 19px;
+		font-weight: 600;
+		margin-left: 10px;
+		margin-bottom: 15px;
+
+		span {
+			color: #30c5b0;
+		}
+	}
+
+	.p-pcm {
+		display: flex;
+		align-items: center;
+		margin: 10px;
+
+		img {
+			width: 35px;
+			margin-right: 7px;
+		}
+	}
+}
+
+@media (min-width: 700px) {
+	.qr {
+		flex-direction: row;
+	}
+}
+
+@media (min-width: 900px) {
+	.boot-camp-welcome {
+		h2 {
+			font-size: 34px;
+		}
+		.container-opinion {
+			width: 62%;
+			margin: 0 auto;
+			gap: 10px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			.opinion-welcome {
+				width: 50%;
+			}
+		}
+		.slider {
+			.img-slider {
+				padding: 25px;
+			}
+		}
+	}
+	.box-mental {
+		.boot-camp-why-ppr {
+			.contents-why-boot-camp {
+				align-items: start;
+			}
+		}
+		.content-resort {
+			margin-top: 20px;
+			.linksresort {
+				flex-direction: row;
+				align-items: center;
+				width: 100%;
+
+				.resortul {
+					width: 38%;
+					flex-wrap: wrap;
+					align-content: space-between;
+					// p {
+					// 	text-align: center;
+					// }
+				}
+				.advantageresort {
+					width: 50%;
+				}
+			}
+		}
+	}
+	// .content-resort {
+	//     flex-direction: row;
+
+	//     .linksresort {
+	//         width: 40%;
+	//     }
+	//     .big-image-resort {
+	//         width: 60%;
+	//         margin-right: -200px;
+	//     }
+	// }
+}
+
+@media (min-width: 820px) {
+	.box-mental {
+		.dontwait {
+			flex-direction: row;
+		}
+	}
+}
+
+@media (min-width: 1124px) {
+	.about-boot-camp {
+		.content-about-camp {
+			.column-about {
+				display: flex;
+				flex-direction: row;
+				gap: 50px;
+				.one-column {
+					width: 50%;
+				}
+			}
+		}
+	}
+	.slider {
+		width: 85%;
+	}
+	.box-mental {
+		margin: 0 auto;
+		width: 62%;
+		padding: 25px;
+	}
+}
+
+@media (min-width: 766px) {
+	.box-mental {
+		.content-resort {
+			.placeweatherandlevel {
+				width: 70%;
+			}
+		}
+	}
+}
+
+@media (min-width: 800px) {
+	.box-mental {
+		.price-box {
+			display: flex;
+			// align-items: center;
+			justify-content: space-between;
+
+			.list-pirce {
+				width: 70%;
+			}
+
+			.price-boxes {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				margin-left: 5px;
+				width: 30%;
+				.box-with-price {
+					transition: all 0.6s;
+					img {
+						width: 100px;
+					}
+					p {
+						font-weight: 800;
+					}
+				}
+				.box-with-price:nth-child(2) {
+					margin-top: 15px;
+				}
+				.box-with-price:hover {
+					transform: scale(0.88);
+				}
+			}
+		}
+	}
+}
+// @media (min-width: 1300px) {
+// 	.box-mental {
+// 		.content-resort {
+// 			.linksresort {
+// 				.advantageresort {
+// 					margin-left: -100px;
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+.boot-camp-welcome .become-instructor .programm-block .all-blocks .buttons-to-slider {
+	justify-content: end;
+}
+
+@media (min-width: 980px) {
+	.boot-camp-welcome {
+		.age-container-flex {
+			margin-top: 70px;
+		}
+	}
+}
+
+.new-line-category {
+	display: block;
+	text-decoration: underline;
+}
+
+@media (min-width: 1020px) {
+	#__next
+		> div
+		> div
+		> section.jsx-f1ce28369aa4897c.boot-camp-welcome
+		> div.jsx-f1ce28369aa4897c.become-instructor
+		> div
+		> div
+		> div.jsx-f1ce28369aa4897c.blocks-content
+		> div.jsx-f1ce28369aa4897c.age-container-flex
+		> div.jsx-f1ce28369aa4897c.ageandlevel
+		> div:nth-child(3)
+		> div
+		> p {
+		margin-right: 24px;
+	}
+}
+
+.level {
+	margin-top: 10px;
+}
+
+.iconsy {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding-right: 20px;
+	.icon-snowboarders {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+}
+
+@media (min-width: 980px) {
+	.iconsy {
+		padding-right: 10px;
+		.icon-snowboarders {
+			flex-direction: row;
+		}
+	}
+	.boot-camp-welcome .age-container-flex .ageandlevel {
+		margin-top: -20px;
+	}
+}
+
+.other-head {
+	color: black;
+	font-family: 'Wix Madefor Display', sans-serif;
+	font-size: 19px;
+	text-transform: none;
+}
+
+.price-tickets {
+	margin-left: 43px;
+}
+
+.btnstosits {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+@media (min-width: 900px) {
+	.btnstosits {
+		padding: 10px;
+		flex-direction: row;
+		gap: 20px;
+	}
+}
+
+@media (min-width: 420px) and (max-width: 500px) {
+	.become-instructor .programm-block {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+}
+
+.about-boot-camp {
+	.content-about-camp.plantime {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media(min-width: 1124px) {
+	.about-boot-camp {
+		.content-about-camp.plantime {
+			display: flex;
+			// flex-direction: row;
+
+			.column-about {
+				gap: 10px;
+			}
+
+			.one-column {
+				width: 90%;
+			}
+		}
+	}
+}

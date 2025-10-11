@@ -1,0 +1,1014 @@
+.boot-camp-welcome {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+}
+.boot-camp-welcome h1 {
+  order: 2;
+  font-size: 22px;
+  font-family: "Wix Madefor Display", sans-serif;
+  letter-spacing: 4px;
+  color: #30c5b0;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.boot-camp-welcome h2 {
+  order: 1;
+  font-size: 27px;
+  font-family: "Kalnia", serif;
+  font-family: "Kalnia", serif;
+  font-weight: 800;
+  letter-spacing: 4px;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+.boot-camp-welcome h2 span {
+  display: block;
+}
+.boot-camp-welcome .container-opinion {
+  order: 3;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 10px;
+}
+.boot-camp-welcome .container-opinion .opinion-welcome {
+  border-top-left-radius: 20px !important;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 50%;
+  cursor: pointer;
+}
+.boot-camp-welcome .become-instructor {
+  margin-top: 30px;
+  order: 2;
+  display: flex;
+  justify-content: center;
+}
+.boot-camp-welcome .become-instructor .link-to-shop-bootcamp {
+  display: flex;
+  align-items: center;
+  background-color: #30c5b0;
+  color: black;
+  text-decoration: none;
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+  height: 60px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-top-left-radius: 20px;
+  transition: all 0.5s;
+}
+.boot-camp-welcome .become-instructor .link-to-shop-bootcamp:hover {
+  transform: scale(0.9);
+  background: none;
+  border: 1px solid black;
+  color: black;
+  box-shadow: 12px 12px 0px 1px #30c5b0;
+}
+.boot-camp-welcome .age-container-flex {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Wix Madefor Display", sans-serif;
+}
+.boot-camp-welcome .age-container-flex .age-txt-head {
+  font-size: 14px;
+  font-weight: 800;
+  margin-left: 15px;
+}
+.boot-camp-welcome .age-container-flex .ageandlevel {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.boot-camp-welcome .age-container-flex .ageandlevel .age {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.boot-camp-welcome .age-container-flex .ageandlevel .age .number-age-txt {
+  margin-right: 61px;
+  margin-left: 15px;
+}
+.boot-camp-welcome .age-container-flex .ageandlevel .age p {
+  display: flex;
+  align-items: center;
+}
+.boot-camp-welcome .age-container-flex .ageandlevel .level {
+  display: flex;
+  flex-direction: column;
+}
+.boot-camp-welcome .age-container-flex .ageandlevel .level .level-txt {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.boot-camp-welcome .age-container-flex .ageandlevel .level .level-txt p {
+  display: flex;
+  align-items: center;
+}
+.boot-camp-welcome .age-container-flex .icon-snowboarders img {
+  width: 55px;
+}
+
+@media (min-width: 1020px) {
+  .blocks-content .age-container-flex .ageandlevel .age {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .blocks-content .age-container-flex .ageandlevel .level {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .blocks-content .age-container-flex .icon-snowboarders {
+    padding-right: 35px;
+  }
+}
+.timer {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Wix Madefor Display", sans-serif;
+  order: 5;
+  border: 2px solid #30c5b0;
+}
+.timer p {
+  font-size: 22px;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+.timer .time {
+  margin-top: 5px;
+  color: black;
+  font-size: 22px;
+  padding: 15px;
+  background-color: #30c5b0;
+  width: 260px;
+  font-weight: lighter;
+  text-align: center;
+}
+.timer .time .day {
+  color: white;
+}
+
+.slider {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 6;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.slider img {
+  cursor: pointer;
+}
+.slider button {
+  height: 40px;
+  width: 40px;
+  margin: 2px;
+  background-color: #000000;
+  color: white;
+  font-size: 19px;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content img {
+  width: 80%;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.prev-button,
+.next-button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.img-slider {
+  width: 40%;
+  padding: 4px;
+}
+
+.about-boot-camp h3 {
+  margin-top: 30px;
+  font-family: "Kalnia", serif;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #30c5b0;
+  font-weight: 400;
+}
+.about-boot-camp .content-about-camp {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 19px;
+  max-width: 970px;
+  margin: 0 auto;
+  text-align: start;
+  padding: 14px;
+}
+.about-boot-camp .content-about-camp .column-about {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.about-boot-camp .content-about-camp .column-about .one-column {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.about-boot-camp .content-about-camp .column-about .one-column .icon-about-camp {
+  width: 45px;
+}
+.about-boot-camp .content-about-camp .column-about .one-column .list {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.about-boot-camp .content-about-camp .column-about .one-column .list p {
+  font-weight: bold;
+}
+.about-boot-camp .content-about-camp .last-one-list .list {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.about-boot-camp .content-about-camp .last-one-list .list .icon-about-camp {
+  width: 45px;
+}
+.about-boot-camp .content-about-camp .last-one-list .list p {
+  font-weight: bold;
+}
+.about-boot-camp .btn-i-want-camp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-boot-camp .btn-i-want-camp button {
+  font-family: "Wix Madefor Display", sans-serif;
+  text-decoration: none;
+  color: rgb(248, 248, 248);
+  background-color: #30c5b0;
+  font-size: 19px;
+  text-align: center;
+  border-top-left-radius: 15px;
+  transition: all 0.5s;
+  font-weight: 600;
+  height: 70px;
+  cursor: pointer;
+  border: none;
+  font-size: 22px;
+}
+.about-boot-camp .btn-i-want-camp button a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+.about-boot-camp .btn-i-want-camp button:hover {
+  transform: scale(0.9);
+  background: white;
+  border: 1px solid black;
+  color: black;
+  box-shadow: 12px 12px 0px 1px #30c5b0;
+}
+.about-boot-camp .btn-i-want-camp img {
+  padding: 5px;
+  margin-top: 35px;
+  border-top-left-radius: 20px;
+  width: 100%;
+}
+
+.box-mental {
+  width: 95%;
+  padding: 10px;
+  margin-left: 5px;
+  padding-top: 15px;
+  background-color: white;
+  border-top-left-radius: 20px;
+  box-shadow: 18px 21px 0px 1px rgba(48, 197, 177, 0.4901960784);
+  margin-top: 35px;
+}
+.box-mental .price-boxes .box-with-price {
+  display: flex;
+  align-items: center;
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 19px;
+  font-weight: 600;
+  color: #30c5b0;
+}
+.box-mental .price-boxes .box-with-price img {
+  width: 85px;
+  border-top-left-radius: 20px;
+  margin-right: 10px;
+}
+.box-mental .price-boxes a {
+  text-decoration: underline;
+}
+.box-mental .headers-price-box .box-with-price:nth-child(2) {
+  margin-top: 10px;
+}
+.box-mental .price-box {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 19px;
+  margin-top: 25px;
+}
+.box-mental .price-box p {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+.box-mental .price-box img {
+  width: 35px;
+  margin-right: 7px;
+}
+.box-mental .price-box .price-boxes {
+  margin-top: 25px;
+}
+.box-mental .price-box .price-boxes .box-with-price img {
+  width: 100px;
+}
+.box-mental .price-box .price-boxes .box-with-price p {
+  font-weight: 800;
+}
+.box-mental .price-box .price-boxes .box-with-price:nth-child(2) {
+  margin-top: 15px;
+}
+.box-mental .price-box-two {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 19px;
+  margin-top: 25px;
+}
+.box-mental .price-box-two p {
+  display: flex;
+  align-items: start;
+  margin-top: 12px;
+}
+.box-mental .price-box-two img {
+  width: 35px;
+  margin-right: 7px;
+}
+.box-mental .mental-head {
+  text-align: center;
+  font-size: 22px;
+  font-family: "Kalnia", serif;
+  color: #30c5b0;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.box-mental .mental-content {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 19px;
+  color: black;
+}
+.box-mental .mental-content p {
+  padding-top: 20px;
+  padding-left: 5px;
+}
+.box-mental .mental-content .when {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.box-mental .mental-content .when .accept {
+  width: 30px;
+  margin-right: 8px;
+}
+.box-mental .mental-content .question-about-camp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fcfcfc;
+  color: black;
+  text-decoration: none;
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+  width: 260px;
+  height: 60px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-top-left-radius: 20px;
+  transition: all 0.5s;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.box-mental .mental-content .question-about-camp a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+.box-mental .mental-content .question-about-camp:hover {
+  transform: scale(0.9);
+  background: none;
+  border: 1px solid black;
+  color: black;
+  box-shadow: 12px 12px 0px 1px #30c5b0;
+}
+.box-mental .content-resort {
+  display: flex;
+  margin-top: 15px;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 19px;
+}
+.box-mental .content-resort .linksresort {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+}
+.box-mental .content-resort .linksresort .resortul p {
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.box-mental .content-resort .linksresort .resortul a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  padding-bottom: 12px;
+}
+.box-mental .content-resort .linksresort .advantageresort {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+.box-mental .content-resort .linksresort .advantageresort .plustext {
+  color: #30c5b0;
+  font-weight: bold;
+}
+.box-mental .content-resort .linksresort .advantageresort .content-plus {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.box-mental .content-resort .linksresort .advantageresort .content-plus img {
+  width: 35px;
+  margin-right: 7px;
+}
+.box-mental .content-resort .linksresort .advantageresort .content-plus p {
+  padding-bottom: 0;
+}
+.box-mental .content-resort .big-image-resort img {
+  width: 100%;
+}
+.box-mental .content-resort .placeweatherandlevel {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.box-mental .house {
+  font-size: 19px;
+  font-family: "Wix Madefor Display", sans-serif;
+  margin-top: 25px;
+  padding-bottom: 25px;
+}
+.box-mental .house .housebrelok {
+  padding-top: 25px;
+}
+.box-mental .house .food {
+  text-align: center;
+  margin-top: -20px;
+  font-weight: bold;
+}
+.box-mental .boot-camp-why-ppr {
+  margin: 0 auto;
+  font-family: "Wix Madefor Display", sans-serif;
+}
+.box-mental .boot-camp-why-ppr h4 {
+  font-size: 22px;
+}
+.box-mental .boot-camp-why-ppr .contents-why-boot-camp {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.box-mental .boot-camp-why-ppr .contents-why-boot-camp .boot-camp-why-content {
+  margin-top: 10px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.box-mental .boot-camp-why-ppr .contents-why-boot-camp .boot-camp-why-content img {
+  width: 35px;
+  margin-right: 7px;
+}
+.box-mental .boot-camp-why-ppr .end-why {
+  padding: 7px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 19px;
+}
+.box-mental .two-opinion {
+  display: flex;
+}
+.box-mental .two-opinion img {
+  width: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+.box-mental .dontwait {
+  font-family: "Wix Madefor Display", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 22px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.box-mental .dontwait .number-slot {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.box-mental .dontwait .btn-to-shop-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box-mental .dontwait .btn-to-shop-two button {
+  font-family: "Wix Madefor Display", sans-serif;
+  text-decoration: none;
+  color: rgb(248, 248, 248);
+  background-color: #30c5b0;
+  font-size: 19px;
+  text-align: center;
+  border-top-left-radius: 15px;
+  transition: all 0.5s;
+  font-weight: 600;
+  height: 70px;
+  cursor: pointer;
+  border: none;
+  font-size: 22px;
+}
+.box-mental .dontwait .btn-to-shop-two button a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+.box-mental .dontwait .btn-to-shop-two button:hover {
+  transform: scale(0.9);
+  background: white;
+  border: 1px solid black;
+  color: black;
+  box-shadow: 12px 12px 0px 1px #30c5b0;
+}
+.box-mental .organization-txt {
+  font-family: "Wix Madefor Display", sans-serif;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 19px;
+}
+
+.housebrelok {
+  margin-top: 12px;
+  width: 100%;
+  padding: 5px;
+}
+
+.parents-box-head {
+  padding: 15px;
+  font-size: 22px;
+  font-family: "Wix Madefor Display", sans-serif;
+}
+
+.parents-box-content {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Wix Madefor Display", sans-serif;
+}
+.parents-box-content .parents-box-content-txt {
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+.parents-box-content .parents-box-content-txt img {
+  width: 35px;
+  margin-right: 7px;
+}
+
+.btn-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.btn-contact .telicon-sbc a {
+  text-decoration: none;
+  margin-left: 8px;
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+  font-family: "Wix Madefor Display", sans-serif;
+}
+.btn-contact .question-about-camp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fcfcfc;
+  color: black;
+  text-decoration: none;
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+  width: 260px;
+  height: 60px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-top-left-radius: 20px;
+  transition: all 0.5s;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.btn-contact .question-about-camp a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.btn-contact .question-about-camp:hover {
+  transform: scale(0.9);
+  background: none;
+  border: 1px solid black;
+  color: black;
+  box-shadow: 12px 12px 0px 1px #30c5b0;
+}
+
+.end-parent {
+  font-size: 19px;
+  color: black;
+  font-weight: bold;
+  font-family: "Wix Madefor Display", sans-serif;
+  margin-bottom: 7px;
+}
+
+.spbc-dscrb {
+  max-width: 950px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 7px;
+}
+.spbc-dscrb .spbc-dscrb-txt p {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 22px;
+}
+.spbc-dscrb .spbc-dscrb-txt p span {
+  font-family: "Kalnia", serif;
+  color: #30c5b0;
+  font-weight: 800;
+  font-size: 27px;
+}
+
+.opinion-maja {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  padding: 7px;
+}
+.opinion-maja img {
+  border-top-left-radius: 20px;
+  width: 100%;
+}
+
+.bootcamp-price {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  font-family: "Wix Madefor Display", sans-serif;
+  justify-content: center;
+}
+
+@media (min-width: 345px) {
+  .box-mental .boot-camp-why-ppr .contents-why-boot-camp .boot-camp-why-content {
+    font-size: 19px;
+  }
+}
+@media (min-width: 480px) {
+  .boot-camp-welcome h2 span {
+    display: inline;
+  }
+}
+@media (min-width: 670px) {
+  .slider .modal .modal-content img {
+    width: 35%;
+  }
+  .about-boot-camp .content-about-camp .one-column .justifytxt {
+    text-align: justify;
+  }
+  .about-boot-camp .btn-i-want-camp img {
+    width: 60%;
+  }
+  .opinion-maja img {
+    width: 60%;
+  }
+}
+.qr {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #30c5b0;
+}
+.qr p {
+  text-align: center;
+  font-size: 22px;
+  font-family: "Wix Madefor Display", sans-serif;
+  color: black;
+  font-weight: bold;
+  padding: 7px;
+  margin-right: 7px;
+}
+.qr img {
+  width: 150px;
+  padding: 5px;
+}
+
+.org {
+  display: flex;
+  justify-content: center;
+  font-family: "Wix Madefor Display", sans-serif;
+  color: black;
+  font-size: 19px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.program-camp-month {
+  font-family: "Wix Madefor Display", sans-serif;
+}
+.program-camp-month .head-pcm {
+  font-size: 19px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+.program-camp-month .head-pcm span {
+  color: #30c5b0;
+}
+.program-camp-month .p-pcm {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.program-camp-month .p-pcm img {
+  width: 35px;
+  margin-right: 7px;
+}
+
+@media (min-width: 700px) {
+  .qr {
+    flex-direction: row;
+  }
+}
+@media (min-width: 900px) {
+  .boot-camp-welcome h2 {
+    font-size: 34px;
+  }
+  .boot-camp-welcome .container-opinion {
+    width: 62%;
+    margin: 0 auto;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .boot-camp-welcome .container-opinion .opinion-welcome {
+    width: 50%;
+  }
+  .boot-camp-welcome .slider .img-slider {
+    padding: 25px;
+  }
+  .box-mental .boot-camp-why-ppr .contents-why-boot-camp {
+    align-items: start;
+  }
+  .box-mental .content-resort {
+    margin-top: 20px;
+  }
+  .box-mental .content-resort .linksresort {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+  .box-mental .content-resort .linksresort .resortul {
+    width: 38%;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+  .box-mental .content-resort .linksresort .advantageresort {
+    width: 50%;
+  }
+}
+@media (min-width: 820px) {
+  .box-mental .dontwait {
+    flex-direction: row;
+  }
+}
+@media (min-width: 1124px) {
+  .about-boot-camp .content-about-camp .column-about {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+  .about-boot-camp .content-about-camp .column-about .one-column {
+    width: 50%;
+  }
+  .slider {
+    width: 85%;
+  }
+  .box-mental {
+    margin: 0 auto;
+    width: 62%;
+    padding: 25px;
+  }
+}
+@media (min-width: 766px) {
+  .box-mental .content-resort .placeweatherandlevel {
+    width: 70%;
+  }
+}
+@media (min-width: 800px) {
+  .box-mental .price-box {
+    display: flex;
+    justify-content: space-between;
+  }
+  .box-mental .price-box .list-pirce {
+    width: 70%;
+  }
+  .box-mental .price-box .price-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5px;
+    width: 30%;
+  }
+  .box-mental .price-box .price-boxes .box-with-price {
+    transition: all 0.6s;
+  }
+  .box-mental .price-box .price-boxes .box-with-price img {
+    width: 100px;
+  }
+  .box-mental .price-box .price-boxes .box-with-price p {
+    font-weight: 800;
+  }
+  .box-mental .price-box .price-boxes .box-with-price:nth-child(2) {
+    margin-top: 15px;
+  }
+  .box-mental .price-box .price-boxes .box-with-price:hover {
+    transform: scale(0.88);
+  }
+}
+.boot-camp-welcome .become-instructor .programm-block .all-blocks .buttons-to-slider {
+  justify-content: end;
+}
+
+@media (min-width: 980px) {
+  .boot-camp-welcome .age-container-flex {
+    margin-top: 70px;
+  }
+}
+.new-line-category {
+  display: block;
+  text-decoration: underline;
+}
+
+@media (min-width: 1020px) {
+  #__next > div > div > section.jsx-f1ce28369aa4897c.boot-camp-welcome > div.jsx-f1ce28369aa4897c.become-instructor > div > div > div.jsx-f1ce28369aa4897c.blocks-content > div.jsx-f1ce28369aa4897c.age-container-flex > div.jsx-f1ce28369aa4897c.ageandlevel > div:nth-child(3) > div > p {
+    margin-right: 24px;
+  }
+}
+.level {
+  margin-top: 10px;
+}
+
+.iconsy {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-right: 20px;
+}
+.iconsy .icon-snowboarders {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (min-width: 980px) {
+  .iconsy {
+    padding-right: 10px;
+  }
+  .iconsy .icon-snowboarders {
+    flex-direction: row;
+  }
+  .boot-camp-welcome .age-container-flex .ageandlevel {
+    margin-top: -20px;
+  }
+}
+.other-head {
+  color: black;
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 19px;
+  text-transform: none;
+}
+
+.price-tickets {
+  margin-left: 43px;
+}
+
+.btnstosits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 900px) {
+  .btnstosits {
+    padding: 10px;
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+@media (min-width: 420px) and (max-width: 500px) {
+  .become-instructor .programm-block {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}/*# sourceMappingURL=Group.css.map */
+
+.boot-camp-welcome .become-instructor.colonie {
+  display: flex !important;
+  justify-content: center !important;
+}

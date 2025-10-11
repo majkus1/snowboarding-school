@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300;500&family=Ubuntu:wght@300;400;500&family=Wix+Madefor+Display:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalnia:wght@700&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background-color: white;
+  scrollbar-color: #0097d0 white;
+}
+
+.wrapper {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.wrapper-xl {
+  max-width: 2000px;
+  margin: 0 auto;
+}/*# sourceMappingURL=App.css.map */
