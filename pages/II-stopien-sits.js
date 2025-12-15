@@ -384,33 +384,7 @@ const IISits = () => {
                           <p className="row-place-date">Termin i miejsce</p>
                           <p className="row-reservation">Rezerwacja</p>
                         </div>
-                        <div className="details-info">
-                          <div className="title-programm">
-                            <p>
-                            Kurs z/bez egzaminu
-                            </p>
-                          </div>
-
-                          <div className="date-where">
-                            <p className="place">
-                              <MdPlace />
-                              Lodowiec Mölltaler
-                              </p>
-                              <p className="date">20–27.11.25</p>
-                          </div>
-                          <div className="reservation">
-                            <Link
-                              href="/pow-store/produkt/ii-sits-kurs-z-egzaminem/"
-                              className="link-to-shop"
-                            >
-                              <GiPlayButton
-                                className="checks"
-                                style={{ marginRight: 5 }}
-                              />
-                              Zapisuję się
-                            </Link>
-                          </div>
-                        </div>
+                        
 
                         <div className="details-info">
                             <div className="title-programm">
@@ -640,8 +614,6 @@ const IISits = () => {
                 produktu. <br />
                 <strong>Zakwaterowanie i wyżywienie:</strong> w terminie przed
                 kursowym otrzymasz maila z propozycją noclegów grupowych.
-                <br /> Będziesz mieć możliwość zdecydowania o zakwaterowaniu
-                własnym bądź wspólnym.
               </p>
             </div>
             <style jsx>{`
@@ -841,6 +813,21 @@ const IISits = () => {
                     alt="certyfikat potwierdzający uprawnienia do nadawania stopniów sits przez szkółkę na sezon 22/23"
                   />
                 </div>
+              </div>
+
+              <div
+                className="patrs"
+                style={{ width: "100%", marginTop: "40px", display: "flex", flexDirection: "column", alignItems: "center" }}
+              >
+                <div className="patr-box">
+                  <p>sezon 25/26</p>
+                  <img
+                    src="/img/licencja2526.webp"
+                    onClick={() => handleImageClick2("/img/licencja2526.webp")}
+                    alt="certyfikat potwierdzający uprawnienia do nadawania stopniów sits przez szkółkę na sezon 22/23"
+                  />
+                </div>
+                <p style={{ maxWidth: "800px", marginTop: "10px", padding: "0 32px", fontSize: "17px" }} className="info2526">Informujemy, że szkoła POW POW RIDERS w sezonie 2025/2026, prowadzi Kursy Asystenta Instruktora SITS. Kursy realizowane są pod patronatem Instruktora Wykładowcy (IW), zgodnie z obowiązującymi przepisami i regulaminem.</p>
               </div>
             </div>
           </section>

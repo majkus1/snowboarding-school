@@ -257,7 +257,7 @@ const Ind = () => {
 					</section>
 
 					<section className='link-to-reserv-spc'>
-						<a href='/pow-store/'>
+						<a href='/pow-store/produkt/snow-pow-master-class-sits/'>
 							<GiPlayButton className='check' style={{ marginRight: '6px' }} />
 							Chcę się zapisać
 						</a>

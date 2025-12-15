@@ -408,10 +408,10 @@ const Home = () => {
 											<GiPlayButton className='checks' />
 											Weekendowy progres
 										</Link>
-										<Link href='/spring-snow-pow-camp-lodowiec.html' className='btn-twos'>
-											<GiPlayButton className='checks' />
-											Camp na lodowcu
-										</Link>
+									<Link href='/spring-snow-pow-camp-lodowiec.html' className='btn-twos'>
+										<GiPlayButton className='checks' />
+										<span className='neon-yellow-text'>Camp na lodowcu</span>
+									</Link>
 									</div>
 									<div className='btn-flex'>
 										<Link href='/szkolenia-sits.html' className='btn-thre'>
@@ -421,6 +421,18 @@ const Home = () => {
 										<Link href='/kurs-butteringowy-snowboard.html' className='btn-four'>
 											<GiPlayButton className='checks' />
 											Chcę rozwijać się we freestyle
+										</Link>
+									</div>
+								</div>
+								<div className='btns'>
+									<div className='btn-flex'>
+										<Link href='/snowboardowa-polkolonia.html' className='btn-twos newbtnmain'>
+											<GiPlayButton className='checks' />
+											Półkolonie snowboardowe
+										</Link>
+										<Link href='https://page.co/tUWEKk' className='btn-thre newbtnmain' target='_blank'>
+											<GiPlayButton className='checks' />
+											Forma na snowboard
 										</Link>
 									</div>
 								</div>

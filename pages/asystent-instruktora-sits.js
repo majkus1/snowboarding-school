@@ -376,18 +376,18 @@ const Ai = () => {
                       </div>
                     </div>
                   )}
-                  <div className="blocks-content">
-                  {sectionIndex3 === 0 && (
+                  <div className="blocks-content" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+                      {sectionIndex3 === 0 && (
                         <>
-                          <div className="top-row">
+                          {/* <div className="top-row">
                             <p className="row-name ot">Rodzaj</p>
                             <p className="row-place-date ot4">
                               Termin i miejsce
                             </p>
                             <p className="row-reservation ot5">Rezerwacja</p>
-                          </div>
+                          </div> */}
 
-                          <div className="details-info">
+                          {/* <div className="details-info">
                             <div className="title-programm ot3">
                               <p>Kurs z egzaminem</p>
                             </div>
@@ -412,88 +412,12 @@ const Ai = () => {
                                 Zapisuję się
                               </Link>
                             </div>
-                          </div>
+                          </div> */}
 
-                          <div className="details-info">
-                            <div className="title-programm ot3">
-                              <p>Kurs z egzaminem</p>
-                            </div>
+<p style={{ fontSize: "28px", textAlign: 'center', margin: '0 auto' }}><strong>REALIZACJA SZKOLENIA W SEZONIE 2025/2026</strong></p>
 
-                            <div className="date-where ot2">
-                              <p className="place">
-                                <MdPlace />
-                                Szczyrk
-                              </p>
-                              <p className="date">25.01-31.01.26</p>
-                            </div>
-                            <div className="reservation">
-                              
-                              <Link
-                                href="/pow-store/produkt/asystent-instruktora-sits-pow-pow-riders/"
-                                className="link-to-shop"
-                              >
-                                <GiPlayButton
-                                  className="checks"
-                                  style={{ marginRight: 5 }}
-                                />
-                                Zapisuję się
-                              </Link>
-                            </div>
-                          </div>
+<p style={{ fontSize: "22px", textAlign: 'center', margin: '0 auto' }}>Kurs Asystenta Instruktora SITS nie jest obecnie otwarty w zapisach. Jeśli chcesz otrzymać informację, gdy pojawi się możliwość uczestnictwa, skontaktuj się z nami mailowo lub przez Instagram @powpow_riders. Zapraszamy również na pozostałe nasze szkolenia na śniegu.</p>
                           
-                          <div className="details-info">
-                            <div className="title-programm ot3">
-                              <p>Kurs z egzaminem</p>
-                            </div>
-
-                            <div className="date-where ot2">
-                              <p className="place">
-                                <MdPlace />
-                                Štrbské Pleso 
-                              </p>
-                              <p className="date">26.02–04.03.26</p>
-                            </div>
-                            <div className="reservation">
-                             
-                              <Link
-                                href="/pow-store/produkt/asystent-instruktora-sits-pow-pow-riders/"
-                                className="link-to-shop"
-                              >
-                                <GiPlayButton
-                                  className="checks"
-                                  style={{ marginRight: 5 }}
-                                />
-                                Zapisuję się
-                              </Link>
-                            </div>
-                          </div>
-
-                          <div className="details-info">
-                            <div className="title-programm ot3">
-                              <p>Kurs z egzaminem</p>
-                            </div>
-
-                            <div className="date-where ot2">
-                              <p className="place">
-                                <MdPlace />
-                                Štrbské Pleso
-                              </p>
-                              <p className="date">20.03–26.03.26</p>
-                            </div>
-                            <div className="reservation">
-                              
-                              <Link
-                                href="/pow-store/produkt/asystent-instruktora-sits-pow-pow-riders/"
-                                className="link-to-shop"
-                              >
-                                <GiPlayButton
-                                  className="checks"
-                                  style={{ marginRight: 5 }}
-                                />
-                                Zapisuję się
-                              </Link>
-                            </div>
-                          </div>
                         </>
                       )}
                     {sectionIndex3 === 1 && (
@@ -722,16 +646,11 @@ const Ai = () => {
               </div>
             </div>
             <div className="new-write-course">
-              <h2>WAŻNE INFORMACJE:</h2>
-              <p className="information-about-write">
-                <strong>Termin:</strong> wybierzesz bezpośrednio w sklepie Pow
-                Store. Teraz wystarczy, że naciśniesz przycisk wybranego
-                produktu. <br />
-                <strong>Zakwaterowanie i wyżywienie:</strong> w terminie przed
-                kursowym otrzymasz maila z propozycją noclegów grupowych.
-                <br /> Będziesz mieć możliwość zdecydowania o zakwaterowaniu
-                własnym bądź wspólnym.
-              </p>
+            <h2 style={{ fontSize: "30px" }}>WAŻNE:</h2>
+                  <p className="information-about-write" style={{ fontSize: "28px", maxWidth: "1100px" }}>
+                  <strong>UPRAWNIENIA SZKOLENIOWE 2025/2026</strong> – Kurs Asystenta Instruktora SITS<br></br>
+Szkoła POW POW RIDERS posiada uprawnienia szkoleniowe nadane przez SITS, realizowane pod patronatem Instruktora Wykładowcy.
+                  </p>
             </div>
             <style jsx>{`
               @media (min-width: 980px) {
@@ -928,6 +847,22 @@ const Ai = () => {
                     alt="certyfikat potwierdzający uprawnienia do nadawania stopniów sits przez szkółkę na sezon 22/23"
                   />
                 </div>
+              </div>
+
+
+              <div
+                className="patrs"
+                style={{ width: "100%", marginTop: "40px", display: "flex", flexDirection: "column", alignItems: "center" }}
+              >
+                <div className="patr-box">
+                  <p>sezon 25/26</p>
+                  <img
+                    src="/img/licencja2526.webp"
+                    onClick={() => handleImageClick2("/img/licencja2526.webp")}
+                    alt="certyfikat potwierdzający uprawnienia do nadawania stopniów sits przez szkółkę na sezon 22/23"
+                  />
+                </div>
+                <p style={{ maxWidth: "800px", marginTop: "10px", padding: "0 32px", fontSize: "19px" }} className="info2526">Informujemy, że szkoła POW POW RIDERS w sezonie 2025/2026, prowadzi Kursy Asystenta Instruktora SITS. Kursy realizowane są pod patronatem Instruktora Wykładowcy (IW), zgodnie z obowiązującymi przepisami i regulaminem.</p>
               </div>
             </div>
           </section>

@@ -107,12 +107,31 @@
           -moz-box-shadow: 12px 12px 0px 1px #cddfe9;
           box-shadow: 12px 12px 0px 1px #cddfe9;
         }
+        .btn-twos {
+          .neon-yellow-text {
+            color: yellow;
+            text-shadow: 
+              0 0 1px rgba(0, 0, 0, 0.5),
+              0 0 3px #ffb300,
+              0 0 6px #ffb300,
+              0 0 9px #ffb300;
+            font-weight: 700;
+          }
+        }
         .btn-twos:hover {
           background-color: white;
           transform: scale(0.9);
           -webkit-box-shadow: 12px 12px 0px 1px #cddfe9;
           -moz-box-shadow: 12px 12px 0px 1px #cddfe9;
           box-shadow: 12px 12px 0px 1px #cddfe9;
+          .neon-yellow-text {
+            text-shadow: 
+              0 0 1px rgba(0, 0, 0, 0.5),
+              0 0 3px #ffb300,
+              0 0 6px #ffb300,
+              0 0 9px #ffb300,
+              0 0 12px #ffb300;
+          }
         }
         .btn-thre:hover {
           background-color: white;
@@ -343,6 +362,7 @@
     transform: translateX(100%);
   }
 }
+
 
 .snowboard-lessons {
   margin-top: 80px;
@@ -1564,5 +1584,32 @@
     position: absolute !important;
     top: 10%;
     overflow: scroll;
+  }
+}
+
+.opinion-images {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 450px) {
+  .opinion-images {
+    flex-direction: column;
+  }
+  .boot-camp-welcome .container-opinion .opinion-welcome {
+    width: 80% !important;
+  }
+}
+
+.description-polkolonia {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 19px;
+  padding-left: 15px;
+  padding-right: 32px;
+}
+
+@media (max-width: 980px) {
+  .newbtnmain {
+    min-width: 350px;
   }
 }

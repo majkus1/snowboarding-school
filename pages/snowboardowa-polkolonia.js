@@ -387,9 +387,19 @@ const Group = () => {
               Holistyczne Campy Zimowe<br></br>z indywidualnym podejściem do
               uczestnika
             </h1> */}
-            <h2>PÓŁKOLONIE SNOWBOARDOWE</h2>
+            <h2>PÓŁKOLONIE SNOWBOARDOWE POW POW</h2>
+            
 
-            <div className="container-opinion">
+            <div className="container-opinion" style={{ display: "flex", flexDirection: "column" }}>
+
+            <p className="description-polkolonia">+ dedykowane dla dzieci i młodzieży w wieku 9/10–16 lat<br></br><br></br>
++ dwa poziomy zaawansowania - poziom wyjściowy: <br></br>
+podstawowy – BASIC, czyli pierwsza deska/pierwsze ześlizgi<br></br>
+podstawowy plus – BASIC PLUS, czyli swobodne skręty ślizgowe front/back w wolnej prędkości<br></br><br></br>
++ kameralne grupy, w klimacie zajęć indywidualnych: od 2 do 6 osób<br></br>
++ profesjonalni instruktorzy SITS, przeszkoleni do prowadzenia zajęć z dziećmi</p>
+              
+              <div className="opinion-images">
               <img
                 src="/img/snow-pow-camp/15.webp"
                 className="opinion-welcome"
@@ -402,12 +412,13 @@ const Group = () => {
                 onClick={() => handleImageClick3("/img/snow-pow-camp/14.webp")}
                 alt="opinia o snow pow camp"
               />
+              </div>
             </div>
             <div className="become-instructor colonie" style={{ display: "flex", justifyContent: "center" }}>
               <div className="programm-block">
                 <div className="all-blocks">
                   <img
-                    src="/img/_Shop Icon-półkolonia.png"
+                    src="/img/polkolonia.png"
                     loading="eager"
                     alt="logo szkolenia spc"
                     sizes="100vw"
@@ -417,7 +428,7 @@ const Group = () => {
                     height={350}
                   />
                   <img
-                    src="/img/_Shop Icon-półkolonia.png"
+                    src="/img/polkolonia.png"
                     loading="eager"
                     alt="logo szkolenia spc"
                     sizes="100vw"
@@ -427,7 +438,7 @@ const Group = () => {
                     height={440}
                   />
                   <img
-                    src="/img/_Shop Icon-półkolonia.png"
+                    src="/img/polkolonia.png"
                     loading="eager"
                     alt="logo szkolenia spc"
                     sizes="100vw"
@@ -438,7 +449,7 @@ const Group = () => {
                   />
                   <div className="img-container">
                     <img
-                      src="/img/_Shop Icon-półkolonia.png"
+                      src="/img/polkolonia.png"
                       loading="eager"
                       alt="logo szkolenia spc"
                       sizes="100vw"
@@ -563,26 +574,96 @@ const Group = () => {
 
                         <div className="butter-kafel">
                           <div className="what-is-it">
-                            <p>Zapisy na sezon 25/26</p>
+                            <p>BASIC</p>
                           </div>
 
                           <div className="where-is-it">
-                            <p className="wit-date">Całodniowe zajęcia/ pakiety kilkudniowe w okresie<br></br> 9–22.02.25</p>
+                            <p className="wit-date">9–10.02.2026</p>
+                            <p className="wit-place">
+                              <MdPlace /> Biały Krzyż (k. Szczyrku)
+                            </p>
+                          </div>
+                          
+                          <div className="write-me-to-butter">
+                            <a href="/pow-store/produkt/polkolonie-snowboardowe-pow-pow/">
+                              <GiPlayButton
+                                className="checks"
+                                style={{ marginRight: 5 }}
+                              />
+                              Rezerwuję
+                            </a>
+                          </div>
+                        </div>
+
+                        <div className="butter-kafel">
+                          <div className="what-is-it">
+                            <p>BASIC</p>
+                          </div>
+
+                          <div className="where-is-it">
+                            <p className="wit-date">20–22.02.2026</p>
+                            <p className="wit-place">
+                              <MdPlace /> Biały Krzyż + Szczyrk
+                            </p>
+                          </div>
+                          
+                          <div className="write-me-to-butter">
+                            <a href="/pow-store/produkt/polkolonie-snowboardowe-pow-pow/">
+                              <GiPlayButton
+                                className="checks"
+                                style={{ marginRight: 5 }}
+                              />
+                              Rezerwuję
+                            </a>
+                          </div>
+                        </div>
+
+                        <div className="butter-kafel">
+                          <div className="what-is-it">
+                            <p>BASIC PLUS</p>
+                          </div>
+
+                          <div className="where-is-it">
+                            <p className="wit-date">13–15.02.2026</p>
+                            <p className="wit-place">
+                              <MdPlace /> Czarny Groń (niedaleko Szczyrku)
+                            </p>
+                          </div>
+                          
+                          <div className="write-me-to-butter">
+                            <a href="/pow-store/produkt/polkolonie-snowboardowe-pow-pow/">
+                              <GiPlayButton
+                                className="checks"
+                                style={{ marginRight: 5 }}
+                              />
+                              Rezerwuję
+                            </a>
+                          </div>
+                        </div>
+
+                        <div className="butter-kafel">
+                          <div className="what-is-it">
+                            <p>BASIC PLUS</p>
+                          </div>
+
+                          <div className="where-is-it">
+                            <p className="wit-date">16–18.02.2026</p>
                             <p className="wit-place">
                               <MdPlace /> Szczyrk
                             </p>
                           </div>
                           
                           <div className="write-me-to-butter">
-                            <a href="https://docs.google.com/forms/d/1ohe8uEhUrAZc1HsadMbJLWgy4BnPzYMpvDDEO2eEjkw/viewform" target="_blank">
+                            <a href="/pow-store/produkt/polkolonie-snowboardowe-pow-pow/">
                               <GiPlayButton
                                 className="checks"
                                 style={{ marginRight: 5 }}
                               />
-                              Zapisuję się
+                              Rezerwuję
                             </a>
                           </div>
                         </div>
+
                         {/* <p style={{ fontSize: "20px", paddingTop: "10px" }}>Cena półkolonii dwudniowej – <span style={{ color: "#0097d0" }}>937 zł</span></p>
                         <p style={{ fontSize: "20px", paddingTop: "10px" }}>Cena półkolonii czterodniowej – <span style={{ color: "#0097d0" }}>1607 zł</span>
                         </p> */}
@@ -851,13 +932,7 @@ const Group = () => {
                   />
                   profesjonalne szkolenie snowboardowe z wykwalifikowaną kadrą
                 </p>
-                <p>
-                  <img
-                    src="/img/snow-pow-camp/accept-circular-button-outline.png"
-                    alt="znaczek akceptacji"
-                  />
-                  karnety na każdy dzień szkolenia
-                </p>
+                
                 
                 <p>
                   <img
@@ -934,13 +1009,13 @@ const Group = () => {
                   zajęcia oparte o budowanie odporności psychicznej młodych
                   snowboardzistów
                 </p>
-                <p>
+                {/* <p>
                   <img
                     src="/img/snow-pow-camp/accept-circular-button-outline.png"
                     alt="znaczek akceptacji"
                   />
                   opiekę kadry przez cały czas trwania szkolenia
-                </p>
+                </p> */}
               </div>
             </div>
             
@@ -975,7 +1050,7 @@ const Group = () => {
                 </span>
               </p>
 
-			  <p style={{paddingBottom: "12px"}}>
+			  {/* <p style={{paddingBottom: "12px"}}>
                 <img
                   src="/img/snow-pow-camp/snowboarding.webp"
                   alt="ikonka snowboardera"
@@ -989,7 +1064,7 @@ const Group = () => {
 				  <span>Wybraną opcję dojazdu należy zaznaczyć, w dedykowanym formularzu, podczas zapisywania dziecka na półkolonie.</span>
                 <span>Z RODZICEM: Możliwy jest dowóz dziecka oraz odebranie ze stoku narciarskiego.</span>
 				</span>
-              </p>
+              </p> */}
 
 			  <p style={{paddingBottom: "12px"}}>
                 <img
@@ -1184,13 +1259,10 @@ const Group = () => {
                   zbiórka na stoku,
                   </p><br></br>
                   <p className="justifytxt">
-                  rozgrzewka snowboardowa – zabawy, animacje, integracja oraz przede wszystkim przygotowanie fizyczne oraz mentalne dzieci do zajęć,
-                  </p><br></br>
-                  <p className="justifytxt">
                   sprawdzenie sprzętu i ubioru – aby był pełen komfort i bezpieczeństwo
                   </p><br></br>
                   <p className="justifytxt">
-                  9:30 – rozpoczęcie szkolenia snowboardowego
+                  9:30 – rozpoczęcie szkolenia snowboardowego - rozgrzewka snowboardowa – zabawy, animacje, integracja oraz przede wszystkim przygotowanie fizyczne oraz mentalne dzieci do zajęć,
                   </p>
                 </div>
 
@@ -1201,7 +1273,7 @@ const Group = () => {
                       className="icon-about-camp"
                       alt="ikonka snowboardera"
                     />
-                    <p>12:00 – przerwa</p>
+                    <p>11:30/12:00 – przerwa</p>
                   </div>
                   <p className="justifytxt">
                    czas na uzupełnienie energii
@@ -1233,10 +1305,10 @@ const Group = () => {
                       className="icon-about-camp"
                       alt="ikonka snowboardera"
                     />
-                    <p>15:00 – zbiórka na stoku:</p>
+                    <p>14:30 – zbiórka:</p>
                   </div>
                   <p className="justifytxt">
-                  dzieci odebrane przez rodziców zostają z nimi
+                  odebranie dzieci przez rodziców
                   </p><br></br>
                 </div>
 

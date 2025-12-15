@@ -589,7 +589,7 @@ const Weekend = () => {
                           style={{ borderBottom: "0px" }}
                         >
                           <div className="what-is-it">
-                            <p>Carving (poziom podstawowy)</p>
+                            <p>Carving (poziom podstawowy/średniozaawansowany)</p>
                           </div>
                           <div className="where-is-it">
                             <p className="wit-date">27–28.12.25</p>
@@ -923,6 +923,20 @@ const Weekend = () => {
                         className="snower-blue"
                       />
                       chcą rozjeździć się na krawędzi przed szkoleniem III stopnia.
+                    </li>
+                    <li
+                      style={{
+                        listStyle: "none",
+                        marginLeft: "-10px",
+                        display: "flex",
+                        alignItems: "start",
+                      }}
+                    >
+                      <img
+                        src="/img/check-mark-blue.png"
+                        className="snower-blue"
+                      />
+                      chcą nauczyć się/trenować jazdę długim skrętem na krawędzi - switch cięty
                     </li>
                   </ul>
 
